@@ -1020,3 +1020,4 @@ function build_kernel() {
 function bk() {
     SKIP_KERNEL_SYNC=1 build_kernel
 }
+rm -rf prebuilts/misc/protobuf_vendorcompat
